@@ -40,6 +40,9 @@ public class gcRoomSizes {
 		
 		//Assign Perimeter
 		double Perimeter = 2 * length + width;
+	
+		//Assign Volume
+		double Volume = length * width * length;
 		
 		//Print out Area result
 		System.out.println("Area: " + Area);
@@ -47,9 +50,11 @@ public class gcRoomSizes {
 		//Print out Perimeter result
 		System.out.println("Perimeter " + Perimeter);
 		
+		//Print out Volume result
+		System.out.println("Volume" + Volume);
 		
-        
-		//Prompt user to continue
+		
+        //Prompt user to continue
 		 System.out.print("Continue? (y/n): ");
 		
 		 //Scan for Y
@@ -57,12 +62,9 @@ public class gcRoomSizes {
 		 choice = s.nextLine();
 		 
 		 
-             
        
        System.out.println();
-        
-        //Close Scanner
-       s.close();
+       
 		
 		}
 		
